@@ -24,7 +24,7 @@ from tweet_project import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('tweet/', include('tweet.urls')),
+    path('', include('tweet.urls')),
     path('accounts/', include('django.contrib.auth.urls')),
 ]
 
